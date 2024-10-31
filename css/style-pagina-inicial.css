@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.corpo{
+    background-color: #11111E;
+    width: 100%;
+    height: 1080;
+    font-family: "K2D", sans-serif;
+}
+.corpo main{
+    width: 100%;
+    display: flex;
+}
+.corpo main #caixa-corpo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    /*background-image:linear-gradient(to right, rgba(0,0,0,0.9)20%, rgba(0,0,0,0)), url(Rectangle67.svg);*/
+    background-image:linear-gradient(to right, rgb(0, 0, 0)15%, rgba(255, 255, 255, -100)), url(../img/imagem-fundo.jpg);
+    background-size: cover;
+    background-position:center center;
+}
+
+.corpo main #caixa-corpo #assista0{
+    margin-top: 250px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 36px;
+    color: #ffffff;
+}
+.corpo main #caixa-corpo #assista{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.corpo main #caixa-corpo .entrar{
+    width: 10%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.corpo main #caixa-corpo .entrar1{
+    width: 10%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+}
+.corpo main #caixa-corpo #assista2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: #ffffff;
+}

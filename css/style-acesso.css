@@ -1,0 +1,166 @@
+* {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+main{
+    margin-top: 5%;
+    
+}
+.header-content {
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+   
+}
+
+.back-button {
+    margin-top: 2%;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    margin-top: -500px;
+}
+
+.account-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: calc(40% - 20px); 
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.device-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.last-access p {
+    margin: 0;
+    color: #666;
+}
+
+.date-time p {
+    margin: 0;
+    color: #666;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3%;
+}
+
+.show-more-button {
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.show-more-button:hover {
+    background-color: #666;
+}
+
+
+body main .main__navegacao {
+    height: 60vh;
+    display: flex;
+}
+
+body main .main__navegacao ul li {margin-top: 10px}
+
+body main .main__navegacao ul li a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+
+body main .main__navegacao ul li a:hover {
+    color: #5BC2E7;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+body main .main__navegacao, body main .main__navegacao ul li a h3 {margin-left: 10px}
+
+@media (max-width: 600px) {
+    .account-box {
+        width: 100%;
+    }
+
+    .profile-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logout-button {
+        padding: 3px 8px;
+    }
+
+    .show-more-button {
+        padding: 8px 16px;
+    }
+}

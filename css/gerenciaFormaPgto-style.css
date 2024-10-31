@@ -1,0 +1,233 @@
+
+body{
+  margin: 120px auto;
+}
+.externo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+
+}
+
+.container-box{
+  /* background-color: brown; */
+  height: auto;
+}
+
+.interno{
+  /* background-color: green; */
+  width: 60%;
+  max-width: 620px;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 15px;
+  /* display: inline-block; */
+}
+
+.item{
+  /* background-color: purple; */
+  /* width: 90%;
+   */
+  flex: 1;
+  height: 160px;
+  margin: 12px;
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid gray;
+  /* justify-content: center; */
+}
+
+.item img{
+  width: 120px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.item .compartimento{
+  flex: 1;
+  margin: 7px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item .compartimento h3{
+  font-size: 16px;
+  font-family: arial;
+  text-align: center;
+}
+
+.externo-texto h2, .externo-texto h1{
+  font-weight: none;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.bolinhas{
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bolinhas img{
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+}
+
+.atualizar{
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.atualizar a{
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.atualizar:hover{
+  background-color: #5bc2e7;
+}
+
+
+.voltar-caixa{
+  width: auto;
+  height: auto;
+  /* background-color: green; */
+  margin-left: 2%;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.voltar-caixa img{
+  width: 32px;
+  height: 27px;
+}
+
+.voltar-caixa h2{
+  margin-left: 12px; 
+  font-size: 22px;
+  font-family: arial;
+}
+
+.voltar-caixa a{
+  color: black;
+  text-decoration: none;
+}
+
+.maispagamentos{
+  display: flex;
+  align-items: center;
+  /* background-color: orange; */
+}
+.maispagamentos img{
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+.externo a{
+  text-decoration: none;
+  color: black;
+}
+
+.caixa-responsividade{
+  display: none;
+}
+
+/* Tela indisponível */
+@media only screen and (max-width: 291.99px) {
+  body {background: #000;}
+  
+  header, main, footer {display: none;}
+}
+
+@media screen and (max-width: 760px) {
+  .externo{
+      display: none;
+  }
+
+  .voltar-caixa{
+      width: auto;
+      margin-bottom: 15px;
+      margin-left: 0px;
+      justify-content: center;
+      /* background-color: aquamarine; */
+  }
+
+  .caixa-responsividade{
+      display: block;
+      flex-direction: column;
+      margin: 0px auto;
+      width: 80%;
+      /* background-color: green; */
+      border: 2px solid gray;
+      border-radius: 5px;
+  }
+
+  .texto-responsividade{
+      text-align: center;
+      padding: 7px;
+  }
+
+  .icones-responsividade{
+      width: auto;
+      height: 80px;
+      /* background-color: red; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .icone-marca{
+      width: 50x;
+      height: 100%;
+      margin-right: 18px;
+  }
+
+  .botoes-responsivo{
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* background-color: purple; */
+     padding-top: 25px;
+     padding-bottom: 10px;
+  }
+
+  .botoes-responsivo .btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      width: 40%;
+      height: 40px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      border: 2px solid gray;
+  }
+
+  .botoes-responsivo .btn a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .botoes-responsivo .btn a:hover{
+      color: #5bc2e7;
+  }
+
+
+}
